@@ -1,0 +1,210 @@
+*{
+    background: #e4e4e6;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 155%;
+    
+}
+
+header {
+    
+    text-align: 10px;
+    margin-left: 10px;
+    padding: 4px 0 ;
+    border: none;
+   }
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 2%;
+    opacity: 1;
+    transition: 400ms;
+   box-shadow: 10px 10px 10px 0 rgb(62, 62, 153);
+    
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.text-area {
+    border: none;
+    color: #948636;
+    margin: 5px 5px 5px 5px;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder {color #0A3871; }
+    .text-area:focus {
+        outline: none; 
+}
+   
+ .mensagem {
+        background: white;
+        background-image: url(/imagens/boneco.png);
+        background-repeat: no-repeat;
+        border: 3px 0 0;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 98px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: absolute;
+        opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    }
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #91a3a3;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.btn-desencriptar:hover {
+    color: #d8d496;
+    background: #6b8181;
+    transform: scale(1.1);
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    opacity: 1;
+    transition:1s;
+    box-shadow: 10px 10px 10px 0 #000000;
+
+}
+
+.btn-encriptar:hover {
+    color: #d8d496;
+    background: #05254d;
+    transform: scale(1.1);
+}
+
+.btn-copiar {
+    background: #cdd6d6;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0 #000000;
+
+}
+
+.btn-copiar:hover {
+    color: #d8d496;
+    background: #495857;
+    transform: scale(1.1);
+
+}
+
+.informacoao {
+    color: #495857;
+    font-size: 15px;
+}
+
+footer {
+ text-align: center;
+ margin-left: 10px;
+ padding: 4px 0 ;
+ border: none;
+  
+}
+
+.github {
+    width: 2.5%;
+    display: inline-block;
+}
+
+.linkedin {
+    width: 2%;
+    display: inline-block;
+}
+
+.copyright {
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    margin: 20px 0 0;
+} 
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #f71010;
+    transform: scale(1.1);
+}
+
+.projeto {
+    font-size: 15px;
+    color: rgb(21, 22, 22);
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+p {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+    
