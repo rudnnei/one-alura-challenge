@@ -57,7 +57,7 @@ main {
         color: #0A3871;
         margin-left: 98px;
         margin-top: 20px;
-        padding-left: 20px;
+        padding-left: px;
         position: absolute;
         opacity: 1;
     transition: 400ms;
@@ -199,6 +199,12 @@ nav a:hover {
 
 p {
     display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+    .logoAlura {
+        width: auto;
+    }
 }
 
 
