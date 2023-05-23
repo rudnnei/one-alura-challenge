@@ -1,5 +1,6 @@
 const textArea = document.querySelector(".text-area");
 const mensagem = document.querySelector(".mensagem");
+const botaoCopiar = document.querySelector(".botaoCopiar");
 
 // As "chaves" de criptografia que utilizaremos são:
 // A letra "e" é convertida para "enter"
@@ -24,7 +25,12 @@ function encriptar(stringEncriptada) {
         if(stringEncriptada.includes(matrizCodigo[i][0])) {
             stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
         }
+
+        const div = document.querySelector(".caixa");
+        div.style.display = "none"; 
     }
+
+
 
     return stringEncriptada;
 
@@ -51,3 +57,14 @@ function desencriptar(stringDesencriptada) {
     return stringDesencriptada;
 
 }
+
+document.querySelector(".botaoCopiar").addEventListener("click", copiar);
+function copiar() {
+    navigator.clipboard.writeText(document.querySelector(".mensagem").value)
+
+    alert("texto copiado")
+}
+
+
+/*Função esconder boneco*/
+
