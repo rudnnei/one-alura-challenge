@@ -13,6 +13,7 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
     textArea.value = "";
+    
 }
 
 
@@ -25,15 +26,16 @@ function encriptar(stringEncriptada) {
         if(stringEncriptada.includes(matrizCodigo[i][0])) {
             stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
         }
-
+        
         const div = document.querySelector(".caixa");
         div.style.display = "none"; 
+        
     }
 
-
+  
 
     return stringEncriptada;
-
+   
 }
 
 
@@ -63,8 +65,8 @@ function copiar() {
     navigator.clipboard.writeText(document.querySelector(".mensagem").value)
 
     alert("texto copiado")
+
 }
 
 
-/*Função esconder boneco*/
 
